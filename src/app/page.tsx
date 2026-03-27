@@ -4,7 +4,10 @@ export default function Home() {
   return (
     <main className="">
       <Header></Header>
-      <section id="inicio" className="scroll-mt-37 bg-blue-50 p-10">
+      <section
+        id="inicio"
+        className="scroll-mt-40 bg-blue-50 p-10 md:scroll-mt-38"
+      >
         <h2 className="pb-2 text-3xl">Início</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -107,7 +110,10 @@ export default function Home() {
           ligula elementum.
         </p>
       </section>
-      <section id="pautas" className="scroll-mt-37 bg-blue-100 p-10">
+      <section
+        id="pautas"
+        className="scroll-mt-40 bg-blue-100 p-10 md:scroll-mt-38"
+      >
         <h2 className="pb-2 text-3xl">Pautas</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -210,7 +216,10 @@ export default function Home() {
           ligula elementum.
         </p>
       </section>
-      <section id="imagens" className="scroll-mt-37 bg-blue-200 p-10">
+      <section
+        id="imagens"
+        className="scroll-mt-40 bg-blue-200 p-10 md:scroll-mt-38"
+      >
         <h2 className="pb-2 text-3xl">Imagens</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -313,7 +322,10 @@ export default function Home() {
           ligula elementum.
         </p>
       </section>
-      <section id="junte-se" className="scroll-mt-37 bg-blue-300 p-10">
+      <section
+        id="junte-se"
+        className="scroll-mt-40 bg-blue-300 p-10 md:scroll-mt-38"
+      >
         <h2 className="pb-2 text-3xl">Junte-se a nós!</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
