@@ -1,9 +1,20 @@
+"use client";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import { useTheme, useMediaQuery } from "@mui/material";
 
 export default function Imagens() {
+  const theme = useTheme();
+
+  const isXs = useMediaQuery(theme.breakpoints.down("sm"));
+  const isSm = useMediaQuery(theme.breakpoints.down("md"));
+
+  let cols = 4;
+  if (isXs) cols = 1;
+  else if (isSm) cols = 2;
+
   return (
-    <ImageList sx={{ width: "80%", height: "fit" }} cols={4}>
+    <ImageList sx={{ width: "80%" }} cols={cols}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
