@@ -1,7 +1,7 @@
 import "~/styles/globals.css";
 
 import { type Metadata } from "next";
-import { Merriweather, Noto_Serif } from "next/font/google";
+import { Merriweather, Noto_Serif, Kanit } from "next/font/google";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
@@ -20,6 +20,11 @@ const merriweather = Merriweather({
 const notoSerif = Noto_Serif({
   subsets: ["latin"],
   weight: ["400", "700"],
+});
+
+const kanit = Kanit({
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export default function RootLayout({

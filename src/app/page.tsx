@@ -1,21 +1,28 @@
 import Button from "@mui/material/Button";
 import Header from "./_components/header";
 import Imagens from "./_components/imagens";
-import { Merriweather } from "next/font/google";
+import { Merriweather, Kanit } from "next/font/google";
 
 const merriweather = Merriweather({
   subsets: ["latin"],
   weight: ["700"],
 });
+const kanit = Kanit({
+  subsets: ["latin"],
+  weight: ["700"],
+});
+
 export default function Home() {
   return (
     <main className="">
       <Header></Header>
       <section
         id="inicio"
-        className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-50 p-10 md:scroll-mt-38"
+        className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-50 bg-[url(/images/background.png)] bg-size-[5em] bg-repeat-round p-10 md:scroll-mt-38"
       >
-        <h2 className={`pb-2 text-3xl ${merriweather.className}`}>Início</h2>
+        <h2 className={`pb-2 text-4xl text-blue-900 ${kanit.className}`}>
+          Início
+        </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
           pellentesque sodales diam vel pretium. Aliquam posuere cursus mi.
@@ -119,9 +126,11 @@ export default function Home() {
       </section>
       <section
         id="pautas"
-        className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-100 p-10 md:scroll-mt-38"
+        className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-100 bg-[url(/images/background.png)] bg-size-[5em] bg-repeat-round p-10 md:scroll-mt-38"
       >
-        <h2 className={`pb-2 text-3xl ${merriweather.className}`}>Pautas</h2>
+        <h2 className={`pb-2 text-4xl text-blue-900 ${kanit.className}`}>
+          Pautas
+        </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
           pellentesque sodales diam vel pretium. Aliquam posuere cursus mi.
@@ -225,20 +234,22 @@ export default function Home() {
       </section>
       <section
         id="imagens"
-        className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-200 p-10 md:scroll-mt-38"
+        className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-200 bg-[url(/images/background.png)] bg-size-[5em] bg-repeat-round p-10 md:scroll-mt-38"
       >
-        <h2 className={`pb-2 text-3xl ${merriweather.className}`}>Imagens</h2>
+        <h2 className={`pb-5 text-4xl text-blue-900 ${kanit.className}`}>
+          Imagens
+        </h2>
         <Imagens></Imagens>
       </section>
       <section
         id="junte-se"
-        className="flex scroll-mt-40 flex-col items-center justify-center gap-5 bg-blue-300 p-10 md:scroll-mt-38"
+        className="flex scroll-mt-40 flex-col items-center justify-center gap-5 bg-blue-300 bg-[url(/images/background.png)] bg-size-[5em] bg-repeat-round p-10 md:scroll-mt-38"
       >
-        <h2 className={`pb-2 text-3xl ${merriweather.className}`}>
+        <h2 className={`text-4xl text-blue-900 ${kanit.className}`}>
           Junte-se a nós
         </h2>
 
-        <p>Clique aqui para se afiliar a gente!</p>
+        <p className="text-blue-600">Clique aqui para se afiliar a gente!</p>
         <Button
           variant="contained"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdyRTSdxZSwVULfxrlAjU0I8pMZQt6cH1yFnHx22dhBjul-XQ/viewform?usp=send_form"
