@@ -1,8 +1,12 @@
 import Button from "@mui/material/Button";
 import Header from "./_components/header";
-import imagens from "./_components/imagens";
 import Imagens from "./_components/imagens";
+import { Merriweather } from "next/font/google";
 
+const merriweather = Merriweather({
+  subsets: ["latin"],
+  weight: ["700"],
+});
 export default function Home() {
   return (
     <main className="">
@@ -11,7 +15,7 @@ export default function Home() {
         id="inicio"
         className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-50 p-10 md:scroll-mt-38"
       >
-        <h2 className="pb-2 text-3xl">Início</h2>
+        <h2 className={`pb-2 text-3xl ${merriweather.className}`}>Início</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
           pellentesque sodales diam vel pretium. Aliquam posuere cursus mi.
@@ -117,7 +121,7 @@ export default function Home() {
         id="pautas"
         className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-100 p-10 md:scroll-mt-38"
       >
-        <h2 className="pb-2 text-3xl">Pautas</h2>
+        <h2 className={`pb-2 text-3xl ${merriweather.className}`}>Pautas</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
           pellentesque sodales diam vel pretium. Aliquam posuere cursus mi.
@@ -223,14 +227,16 @@ export default function Home() {
         id="imagens"
         className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-200 p-10 md:scroll-mt-38"
       >
-        <h2 className="pb-2 text-3xl">Imagens</h2>
+        <h2 className={`pb-2 text-3xl ${merriweather.className}`}>Imagens</h2>
         <Imagens></Imagens>
       </section>
       <section
         id="junte-se"
         className="flex scroll-mt-40 flex-col items-center justify-center gap-5 bg-blue-300 p-10 md:scroll-mt-38"
       >
-        <h2 className="mb-10 pb-2 text-3xl">Junte-se a nós</h2>
+        <h2 className={`pb-2 text-3xl ${merriweather.className}`}>
+          Junte-se a nós
+        </h2>
 
         <p>Clique aqui para se afiliar a gente!</p>
         <Button

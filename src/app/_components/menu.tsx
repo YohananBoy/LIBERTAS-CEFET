@@ -2,7 +2,7 @@ import Link from "@mui/material/Link";
 
 export default function Menu() {
   return (
-    <nav className="flex flex-row gap-5 md:gap-10">
+    <nav className="flex flex-row gap-5 text-lg md:gap-10 md:text-xl">
       <Link href="#inicio" underline="hover">
         Início
       </Link>

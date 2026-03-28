@@ -1,7 +1,7 @@
 import "~/styles/globals.css";
 
 import { type Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Merriweather, Noto_Serif } from "next/font/google";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
@@ -12,16 +12,21 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
-const geist = Geist({
+const merriweather = Merriweather({
   subsets: ["latin"],
-  variable: "--font-geist-sans",
+  weight: ["400", "700"],
+});
+
+const notoSerif = Noto_Serif({
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`scroll-smooth ${geist.variable}`}>
+    <html lang="en" className={`scroll-smooth ${notoSerif.className}`}>
       <body>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           {children}
