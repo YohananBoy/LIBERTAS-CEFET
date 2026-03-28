@@ -5,6 +5,8 @@ import { Merriweather, Noto_Serif, Kanit } from "next/font/google";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
+import Footer from "./_components/footer";
+import Header from "./_components/header";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -33,9 +35,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`scroll-smooth ${notoSerif.className}`}>
       <body>
+        <Header></Header>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           {children}
         </AppRouterCacheProvider>
+        <Footer></Footer>
       </body>
     </html>
   );

@@ -15,7 +15,6 @@ const kanit = Kanit({
 export default function Home() {
   return (
     <main className="">
-      <Header></Header>
       <section
         id="inicio"
         className="flex scroll-mt-40 flex-col items-center justify-center bg-blue-50 bg-[url(/images/background.png)] bg-size-[5em] bg-repeat-round p-10 md:scroll-mt-38"
@@ -255,6 +254,7 @@ export default function Home() {
         <p className="text-blue-600">Clique aqui para se afiliar a gente!</p>
         <Button
           variant="contained"
+          target="_blank"
           href="https://docs.google.com/forms/d/e/1FAIpQLSdyRTSdxZSwVULfxrlAjU0I8pMZQt6cH1yFnHx22dhBjul-XQ/viewform?usp=send_form"
         >
           Filie-se
