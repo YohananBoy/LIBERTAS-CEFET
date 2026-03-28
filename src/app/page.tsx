@@ -239,7 +239,10 @@ export default function Home() {
         <h2 className={`pb-5 text-4xl text-blue-900 ${kanit.className}`}>
           Imagens
         </h2>
-        <Imagens></Imagens>
+        <div className="flex flex-col items-center justify-center gap-1.5">
+          <Imagens></Imagens>
+          <img src="images/figurinha.gif" alt="" />
+        </div>
       </section>
       <section
         id="junte-se"
