@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="flex flex-row items-center justify-between bg-blue-700 p-10 text-white">
       <div>
         <p>LIBERTAS CEFET</p>
-        <p>"Em busca da liberdade do CEFET-NF"</p>
+        <p>&quot;Em busca da liberdade do CEFET-NF&quot;</p>
       </div>
       <p>
         &copy; 2026 • Yohanan{" "}
