@@ -22,105 +22,32 @@ export default function Home() {
         <h2 className={`pb-2 text-4xl text-blue-900 ${kanit.className}`}>
           Início
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-          pellentesque sodales diam vel pretium. Aliquam posuere cursus mi.
-          Aenean sed elit sit amet magna malesuada facilisis. Ut et nulla magna.
-          Maecenas viverra, purus efficitur sodales viverra, justo lectus
-          consectetur est, a dictum enim orci semper purus. Donec auctor dolor
-          quis ante molestie, non ullamcorper eros euismod. Mauris aliquet leo
-          magna, vel consequat lectus lobortis ut. Aenean eu gravida mauris. Sed
-          sagittis urna non tempor laoreet. Donec ac maximus justo, in blandit
-          leo. Praesent ultrices dui a posuere cursus. Praesent eu rutrum
-          mauris. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia curae; Vivamus aliquam, augue non luctus
-          aliquet, metus erat fermentum neque, id tempus diam felis tristique
-          ligula. Nam gravida tortor mi, ac mollis erat convallis in. Duis
-          auctor ex et tortor malesuada, in ornare felis mollis. Nulla a erat
-          finibus, tempor quam vel, porttitor est. Cras laoreet, libero sed
-          blandit ultrices, nisl ipsum vestibulum orci, eu varius justo justo
-          sed ipsum. Quisque sed vestibulum metus. Sed sit amet magna in mauris
-          laoreet rutrum efficitur vitae felis. Nullam bibendum semper ultrices.
-          Mauris ut lectus consectetur, tempus tellus at, fringilla libero.
-          Nulla imperdiet erat laoreet lobortis rhoncus. Sed vel tincidunt
-          libero, vel tempus risus. In ullamcorper semper finibus. Aliquam diam
-          eros, lobortis ut pulvinar non, ultricies ut odio. Ut et ornare enim.
-          Cras rutrum elementum auctor. Mauris tempor placerat velit eu
-          vulputate. Mauris ac nulla mauris. Praesent felis eros, semper at
-          risus vitae, suscipit tincidunt felis. Mauris consectetur eleifend
-          risus, aliquet maximus turpis fermentum bibendum. Fusce ornare in ex
-          nec tempus. Pellentesque iaculis, dolor a ultricies dignissim, arcu
-          lectus rhoncus mauris, in viverra diam diam quis felis. Morbi blandit
-          ut lacus non lobortis. Etiam pretium, nisi et facilisis eleifend, nibh
-          sem fringilla quam, eu commodo lorem purus nec mi. Donec cursus lectus
-          orci, accumsan dignissim sapien cursus at. Pellentesque malesuada
-          congue augue non sodales. Aenean et neque egestas, dignissim nisi a,
-          consequat neque. Fusce venenatis iaculis est, sit amet porttitor lorem
-          vehicula vitae. Integer cursus varius consequat. Proin vitae faucibus
-          erat. Aenean feugiat urna vulputate elit dignissim feugiat. Duis eget
-          feugiat arcu, ut mattis lacus. Praesent consectetur mauris turpis, vel
-          lacinia dolor aliquam vel. Duis lectus sapien, accumsan in eleifend
-          vehicula, vestibulum ut enim. In malesuada lectus a massa ullamcorper,
-          at vulputate ante mattis. Integer at magna placerat, pulvinar dui at,
-          euismod ante. Aliquam maximus nibh ac neque eleifend, sit amet
-          accumsan felis faucibus. Donec porttitor mollis dolor. Pellentesque ac
-          dictum diam. Nulla nibh orci, sagittis non commodo vel, tempus eu sem.
-          Curabitur eu lorem a lectus vestibulum pharetra vitae nec turpis.
-          Phasellus tempor interdum porta. Fusce accumsan eros orci, auctor
-          mollis purus scelerisque sit amet. Nam tempus tellus leo, eget
-          dignissim magna convallis efficitur. Mauris at ex ut ipsum consequat
-          sodales. Maecenas ut turpis urna. Phasellus eget felis posuere velit
-          efficitur sollicitudin. Nunc dolor orci, egestas in vestibulum sit
-          amet, varius vel velit. Nunc vitae enim accumsan leo blandit
-          scelerisque. Nullam at libero felis. Vivamus luctus volutpat libero
-          nec convallis. Nam in sem ac orci porttitor fermentum nec a erat.
-          Vivamus ornare tortor felis, a finibus orci fermentum eget. Donec
-          tellus diam, tempor et eleifend nec, placerat in tortor. Maecenas sed
-          ornare magna. Phasellus scelerisque faucibus varius. Aenean convallis,
-          lorem nec pretium sollicitudin, justo sem interdum ligula, sed porta
-          felis magna eget nulla. Donec at pharetra urna, in tempus eros. Donec
-          pulvinar iaculis ipsum, ac consectetur felis vulputate sit amet. Donec
-          diam mi, convallis in venenatis ut, dapibus sed ligula. Praesent
-          volutpat eu magna eget finibus. Curabitur lectus lacus, fermentum eu
-          leo id, accumsan pharetra ante. Proin mi turpis, condimentum id dui
-          et, vehicula condimentum massa. Morbi enim metus, congue eget urna a,
-          varius aliquam mauris. Maecenas maximus mi elementum diam pulvinar, a
-          varius sapien pharetra. Nulla turpis nunc, condimentum in eleifend
-          eget, aliquam ac libero. Maecenas mi sapien, tempor eu scelerisque id,
-          porttitor ut eros. Aenean id odio eget dui tincidunt mollis non non
-          sapien. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia curae; Phasellus rutrum libero non congue
-          ultricies. Aliquam eget erat vitae diam egestas sagittis. Nam
-          tristique sed lectus et consequat. Fusce semper mollis augue nec
-          sodales. Maecenas auctor, arcu congue aliquam consequat, nisl purus
-          faucibus massa, id ornare metus massa sed ipsum. Nunc vel lectus quis
-          dolor dignissim iaculis ut a metus. Vivamus interdum augue eu leo
-          vulputate aliquam. Pellentesque habitant morbi tristique senectus et
-          netus et malesuada fames ac turpis egestas. Pellentesque justo purus,
-          pellentesque at lacus at, hendrerit semper felis. Aenean nisl mauris,
-          euismod a egestas et, elementum aliquam tellus. Nullam vel lectus et
-          metus tempor luctus. Pellentesque habitant morbi tristique senectus et
-          netus et malesuada fames ac turpis egestas. Vivamus ut vulputate enim.
-          Morbi a posuere nisl, eget sollicitudin tellus. Nullam ultrices
-          faucibus ex, ac dictum erat. Donec eu molestie enim. Phasellus cursus
-          in nulla quis accumsan. Sed sit amet purus quis neque consectetur
-          pellentesque. Phasellus arcu ante, posuere vitae neque eu, feugiat
-          tempor turpis. Suspendisse potenti. Quisque euismod ipsum quis augue
-          blandit, nec facilisis tortor dapibus. Etiam blandit urna eu eleifend
-          fermentum. Etiam pretium mauris et purus posuere, in vestibulum nisi
-          semper. Vestibulum eget mi ac lectus tempus imperdiet nec et ligula.
-          Quisque arcu nunc, dapibus in enim nec, eleifend pellentesque enim.
-          Praesent vitae neque mi. Nunc sed arcu ultricies, mattis justo ut,
-          dignissim metus. Donec et metus tortor. Nullam rutrum nibh eu ipsum
-          venenatis imperdiet. Suspendisse egestas ante id lorem commodo
-          venenatis. Vivamus quis leo vel erat efficitur porta. Maecenas non
-          ullamcorper ipsum, id sollicitudin orci. Curabitur nec feugiat purus.
-          Nunc ornare augue tortor, in aliquet sem convallis ac. Proin tristique
-          fringilla blandit. Pellentesque consequat leo risus, quis blandit mi
-          posuere sed. Maecenas fringilla ornare sem, eget auctor est ultricies
-          non. Integer ut enim elit. Fusce nec lacus sed odio suscipit
-          condimentum ut a nisi. Nulla ornare justo vel ipsum mattis, eu mollis
-          ligula elementum.
+        <p className="mb-5 md:w-[90%]">
+          O <span className="font-bold text-blue-800">Libertas</span> é um
+          partido de inspiração liberal cujo principal objetivo é alcançar a
+          descentralização do Cefet/RJ. Atualmente, toda a estrutura da
+          instituição está enraizada na sede do Maracanã, gerando problemas
+          administrativos e infraestruturais que demonstram a desigualdade
+          presente entre as unidades. Por exemplo, recursos financeiros
+          adquiridos pela unidade através de ementas parlamentares vão antes
+          para a matriz até que sejam finalmente transferidos para onde deveriam
+          ir. Além disso, há complicações burocráticas causadas pela
+          centralização que dificultam a vivência de docentes e discentes. Por
+          isso, desejamos unir os ideais de{" "}
+          <span className="italic">independência, igualdade e inovação</span> a
+          fim de construirmos um Cefet melhor para todos.
+        </p>
+        <p className="md:w-[90%]">
+          Defendemos a liberdade de expressão, somos contra qualquer tipo de
+          preconceito e reconhecemos a importância da pluralidade política de
+          ideias para a manutenção da democracia. O Libertas aceita cooperar com
+          outros partidos desde que o objetivo inicial principal seja a
+          descentralização verdadeira de nossa instituição. Acreditamos até que,
+          com isso, as chances de concretização dos projetos de outras legendas
+          aumentam muito.{" "}
+          <span className="font-bold text-blue-800 italic">
+            Libertas quæ sera tamen!
+          </span>
         </p>
       </section>
       <section
@@ -130,106 +57,68 @@ export default function Home() {
         <h2 className={`pb-2 text-4xl text-blue-900 ${kanit.className}`}>
           Pautas
         </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-          pellentesque sodales diam vel pretium. Aliquam posuere cursus mi.
-          Aenean sed elit sit amet magna malesuada facilisis. Ut et nulla magna.
-          Maecenas viverra, purus efficitur sodales viverra, justo lectus
-          consectetur est, a dictum enim orci semper purus. Donec auctor dolor
-          quis ante molestie, non ullamcorper eros euismod. Mauris aliquet leo
-          magna, vel consequat lectus lobortis ut. Aenean eu gravida mauris. Sed
-          sagittis urna non tempor laoreet. Donec ac maximus justo, in blandit
-          leo. Praesent ultrices dui a posuere cursus. Praesent eu rutrum
-          mauris. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia curae; Vivamus aliquam, augue non luctus
-          aliquet, metus erat fermentum neque, id tempus diam felis tristique
-          ligula. Nam gravida tortor mi, ac mollis erat convallis in. Duis
-          auctor ex et tortor malesuada, in ornare felis mollis. Nulla a erat
-          finibus, tempor quam vel, porttitor est. Cras laoreet, libero sed
-          blandit ultrices, nisl ipsum vestibulum orci, eu varius justo justo
-          sed ipsum. Quisque sed vestibulum metus. Sed sit amet magna in mauris
-          laoreet rutrum efficitur vitae felis. Nullam bibendum semper ultrices.
-          Mauris ut lectus consectetur, tempus tellus at, fringilla libero.
-          Nulla imperdiet erat laoreet lobortis rhoncus. Sed vel tincidunt
-          libero, vel tempus risus. In ullamcorper semper finibus. Aliquam diam
-          eros, lobortis ut pulvinar non, ultricies ut odio. Ut et ornare enim.
-          Cras rutrum elementum auctor. Mauris tempor placerat velit eu
-          vulputate. Mauris ac nulla mauris. Praesent felis eros, semper at
-          risus vitae, suscipit tincidunt felis. Mauris consectetur eleifend
-          risus, aliquet maximus turpis fermentum bibendum. Fusce ornare in ex
-          nec tempus. Pellentesque iaculis, dolor a ultricies dignissim, arcu
-          lectus rhoncus mauris, in viverra diam diam quis felis. Morbi blandit
-          ut lacus non lobortis. Etiam pretium, nisi et facilisis eleifend, nibh
-          sem fringilla quam, eu commodo lorem purus nec mi. Donec cursus lectus
-          orci, accumsan dignissim sapien cursus at. Pellentesque malesuada
-          congue augue non sodales. Aenean et neque egestas, dignissim nisi a,
-          consequat neque. Fusce venenatis iaculis est, sit amet porttitor lorem
-          vehicula vitae. Integer cursus varius consequat. Proin vitae faucibus
-          erat. Aenean feugiat urna vulputate elit dignissim feugiat. Duis eget
-          feugiat arcu, ut mattis lacus. Praesent consectetur mauris turpis, vel
-          lacinia dolor aliquam vel. Duis lectus sapien, accumsan in eleifend
-          vehicula, vestibulum ut enim. In malesuada lectus a massa ullamcorper,
-          at vulputate ante mattis. Integer at magna placerat, pulvinar dui at,
-          euismod ante. Aliquam maximus nibh ac neque eleifend, sit amet
-          accumsan felis faucibus. Donec porttitor mollis dolor. Pellentesque ac
-          dictum diam. Nulla nibh orci, sagittis non commodo vel, tempus eu sem.
-          Curabitur eu lorem a lectus vestibulum pharetra vitae nec turpis.
-          Phasellus tempor interdum porta. Fusce accumsan eros orci, auctor
-          mollis purus scelerisque sit amet. Nam tempus tellus leo, eget
-          dignissim magna convallis efficitur. Mauris at ex ut ipsum consequat
-          sodales. Maecenas ut turpis urna. Phasellus eget felis posuere velit
-          efficitur sollicitudin. Nunc dolor orci, egestas in vestibulum sit
-          amet, varius vel velit. Nunc vitae enim accumsan leo blandit
-          scelerisque. Nullam at libero felis. Vivamus luctus volutpat libero
-          nec convallis. Nam in sem ac orci porttitor fermentum nec a erat.
-          Vivamus ornare tortor felis, a finibus orci fermentum eget. Donec
-          tellus diam, tempor et eleifend nec, placerat in tortor. Maecenas sed
-          ornare magna. Phasellus scelerisque faucibus varius. Aenean convallis,
-          lorem nec pretium sollicitudin, justo sem interdum ligula, sed porta
-          felis magna eget nulla. Donec at pharetra urna, in tempus eros. Donec
-          pulvinar iaculis ipsum, ac consectetur felis vulputate sit amet. Donec
-          diam mi, convallis in venenatis ut, dapibus sed ligula. Praesent
-          volutpat eu magna eget finibus. Curabitur lectus lacus, fermentum eu
-          leo id, accumsan pharetra ante. Proin mi turpis, condimentum id dui
-          et, vehicula condimentum massa. Morbi enim metus, congue eget urna a,
-          varius aliquam mauris. Maecenas maximus mi elementum diam pulvinar, a
-          varius sapien pharetra. Nulla turpis nunc, condimentum in eleifend
-          eget, aliquam ac libero. Maecenas mi sapien, tempor eu scelerisque id,
-          porttitor ut eros. Aenean id odio eget dui tincidunt mollis non non
-          sapien. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia curae; Phasellus rutrum libero non congue
-          ultricies. Aliquam eget erat vitae diam egestas sagittis. Nam
-          tristique sed lectus et consequat. Fusce semper mollis augue nec
-          sodales. Maecenas auctor, arcu congue aliquam consequat, nisl purus
-          faucibus massa, id ornare metus massa sed ipsum. Nunc vel lectus quis
-          dolor dignissim iaculis ut a metus. Vivamus interdum augue eu leo
-          vulputate aliquam. Pellentesque habitant morbi tristique senectus et
-          netus et malesuada fames ac turpis egestas. Pellentesque justo purus,
-          pellentesque at lacus at, hendrerit semper felis. Aenean nisl mauris,
-          euismod a egestas et, elementum aliquam tellus. Nullam vel lectus et
-          metus tempor luctus. Pellentesque habitant morbi tristique senectus et
-          netus et malesuada fames ac turpis egestas. Vivamus ut vulputate enim.
-          Morbi a posuere nisl, eget sollicitudin tellus. Nullam ultrices
-          faucibus ex, ac dictum erat. Donec eu molestie enim. Phasellus cursus
-          in nulla quis accumsan. Sed sit amet purus quis neque consectetur
-          pellentesque. Phasellus arcu ante, posuere vitae neque eu, feugiat
-          tempor turpis. Suspendisse potenti. Quisque euismod ipsum quis augue
-          blandit, nec facilisis tortor dapibus. Etiam blandit urna eu eleifend
-          fermentum. Etiam pretium mauris et purus posuere, in vestibulum nisi
-          semper. Vestibulum eget mi ac lectus tempus imperdiet nec et ligula.
-          Quisque arcu nunc, dapibus in enim nec, eleifend pellentesque enim.
-          Praesent vitae neque mi. Nunc sed arcu ultricies, mattis justo ut,
-          dignissim metus. Donec et metus tortor. Nullam rutrum nibh eu ipsum
-          venenatis imperdiet. Suspendisse egestas ante id lorem commodo
-          venenatis. Vivamus quis leo vel erat efficitur porta. Maecenas non
-          ullamcorper ipsum, id sollicitudin orci. Curabitur nec feugiat purus.
-          Nunc ornare augue tortor, in aliquet sem convallis ac. Proin tristique
-          fringilla blandit. Pellentesque consequat leo risus, quis blandit mi
-          posuere sed. Maecenas fringilla ornare sem, eget auctor est ultricies
-          non. Integer ut enim elit. Fusce nec lacus sed odio suscipit
-          condimentum ut a nisi. Nulla ornare justo vel ipsum mattis, eu mollis
-          ligula elementum.
-        </p>
+
+        <ol className="flex list-decimal flex-col gap-3 md:w-[90%]">
+          <li>
+            <span>
+              descentralização do Cefet/RJ em verdadeiras UnEDs (Unidades
+              Descentralizadas), como Cefet/NF (Nova Friburgo), Cefet/NI (Nova
+              Iguaçu), Cefet/AR (Angra dos Reis) etc.
+            </span>
+          </li>
+          <li>
+            <span>
+              distribuição equitativa de verbas e recursos financeiros entre as
+              UnEDs.
+            </span>
+          </li>
+          <li>
+            <span>
+              manutenção, aprimoramento e ampliação dos cursos técnicos
+              integrados, concomitantes e subsequentes: mais cursos, mais vagas
+              e mais turmas.
+            </span>
+          </li>
+          <li>
+            cursos técnicos com duração de 4 (quatro) anos, sendo que o aluno
+            pode escolher entre cursar só o Ensino Médio ou também cursar o
+            técnico, promovendo uma maior liberdade de escolha, uma maior
+            integração escolar, visando também permitir que os discentes se
+            desenvolvam de forma harmônica em outras atividades oferecidas pela
+            instituição.
+          </li>
+          <li>
+            <span>
+              igualdade entre todos os cursos técnicos em relação a questões
+              como estágio obrigatório e práticas profissionais.
+            </span>
+          </li>
+          <li>
+            <span>
+              legalização do uso dos celulares pelos discentes do Ensino Médio
+              fora dos horários de aula, visando uma maior facilidade de
+              comunicação.
+            </span>
+          </li>
+          <li>
+            <span>
+              consolidação dos restaurantes universitários (RUs) em todas as
+              unidades descentralizadas.
+            </span>
+          </li>
+          <li>
+            <span>
+              imediato aprimoramento dos sistemas on-line do Cefet, como Portal
+              do Aluno e Portal do Professor.
+            </span>
+          </li>
+          <li>
+            <span>
+              melhoria dos equipamentos de informática para todas as unidades
+              descentralizadas.
+            </span>
+          </li>
+        </ol>
       </section>
       <section
         id="imagens"
